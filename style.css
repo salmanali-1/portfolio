@@ -1,0 +1,237 @@
+/* ==========================================================
+   style.css - external stylesheet used by registration.html
+   Palette: cream #f6f1e7, deep green #3d5a50, sage #8aa38f,
+   terracotta #b5654a, charcoal text #3b3a36
+   ========================================================== */
+
+/* Element selector: body sets page colour, font and text colour */
+body {
+  margin: 0;
+  background-color: #f6f1e7;
+  color: #3b3a36;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+/* Header and footer share the deep green band */
+header,
+footer {
+  background-color: #3d5a50;
+  color: #f6f1e7;
+  text-align: center;
+  padding: 30px 20px 26px;
+}
+
+header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 2.3rem;
+  margin: 0 0 6px;
+}
+
+header p { margin: 0; color: #d6dfd3; }
+
+footer {
+  margin-top: 30px;
+  padding: 22px 20px;
+  font-size: 0.95rem;
+  color: #e9efe6;
+}
+
+footer p { margin: 4px 0; }
+footer a { color: #f1d9c9; }
+
+/* Navigation bar */
+nav {
+  background-color: #e3e9e1;
+  border-bottom: 1px solid #d3d9cd;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 18px;
+  margin: 0 4px;
+  color: #2f4a43;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+}
+
+nav a[aria-current="page"] { border-bottom-color: #b5654a; }
+
+/* Hover feedback for links */
+a:hover { color: #5c2f20; }
+nav a:hover { background-color: #d3dcd0; border-bottom-color: #8aa38f; }
+nav a[aria-current="page"]:hover { border-bottom-color: #b5654a; }
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 30px 20px 10px;
+}
+
+section {
+  background-color: #fffaf0;
+  border: 1px solid #d9cfba;
+  border-radius: 8px;
+  padding: 22px 28px;
+}
+
+/* Element selector: headings use a serif face */
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 1.55rem;
+  color: #2f4a43;
+  border-bottom: 2px solid #c9d3c7;
+  padding-bottom: 8px;
+  margin: 0 0 16px;
+}
+
+a { color: #8a4a35; }
+
+/* ID selector: the inquiry form container gets a soft panel and spacing */
+#inquiry-form {
+  background-color: #f7f2e6;
+  border: 1px solid #d9cfba;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 18px;
+}
+
+/* Fieldsets group related controls */
+fieldset {
+  border: 1px solid #b9c6b8;
+  border-radius: 6px;
+  background-color: #fffdf7;
+  margin: 0 0 20px;
+  padding: 10px 20px 14px;
+}
+
+legend {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2f4a43;
+  font-size: 1.1rem;
+  padding: 0 8px;
+}
+
+fieldset p { margin: 12px 0; }
+
+/* Element selector: labels sit above their controls */
+label {
+  display: block;
+  font-weight: 600;
+  color: #2f4a43;
+  margin-bottom: 4px;
+}
+
+/* Class selector: labels placed beside checkboxes and radio buttons */
+.inline-label {
+  display: inline;
+  font-weight: normal;
+  color: #3b3a36;
+  margin-left: 6px;
+}
+
+/* Class selector: small helper text under a field */
+.hint {
+  display: block;
+  font-size: 0.88rem;
+  color: #6b685f;
+  margin-top: 4px;
+}
+
+/* Text-style controls share one look */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #a9b7a8;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #3b3a36;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Attribute selector: email field gets a sage-green left accent so the match is visible */
+input[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #a9b7a8;
+  border-left: 5px solid #8aa38f;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #3b3a36;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+textarea { resize: vertical; }
+
+/* Checkboxes and radios sizing */
+input[type="checkbox"],
+input[type="radio"] {
+  width: 1.05rem;
+  height: 1.05rem;
+  vertical-align: middle;
+}
+
+/* Focus feedback on inputs */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #5f7f72;
+  background-color: #f4f8f2;
+  box-shadow: 0 0 0 3px rgba(95, 127, 114, 0.3);
+}
+
+/* Buttons */
+.buttons { margin: 6px 0 0; }
+
+button {
+  padding: 10px 24px;
+  margin-right: 10px;
+  border: 1px solid #3d5a50;
+  border-radius: 6px;
+  background-color: #3d5a50;
+  color: #f6f1e7;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: transparent;
+  color: #3d5a50;
+}
+
+/* Hover feedback on buttons */
+button:hover {
+  background-color: #b5654a;
+  border-color: #b5654a;
+  color: #fffaf0;
+}
+
+button:focus-visible {
+  outline: 3px solid #b5654a;
+  outline-offset: 2px;
+}
+
+/* Browser validation feedback after the user has interacted with a field */
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+  border-color: #b5654a;
+}
