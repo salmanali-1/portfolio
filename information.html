@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Projects and services offered by Salman Ali, including a heavy-duty braking system design.">
-  <title>Projects and Services | Salman Ali</title>
+  <meta name="description" content="BS Computer Science coursework projects by Salman Ali.">
+  <title>Projects | Salman Ali</title>
 
   <!-- Page 2 uses EMBEDDED CSS only: all rules live inside this style element. -->
   <style>
@@ -93,15 +93,15 @@
       margin-bottom: 24px;
     }
 
-    /* ID selector: styles the one article that describes the brake project */
-    #brake-project {
+    /* ID selector: styles the one article that describes the featured project */
+    #featured-project {
       border-left: 6px solid #8aa38f;
       background-color: #fbf7ec;
       padding: 18px 24px;
       margin-bottom: 20px;
     }
 
-    #brake-project h3 { margin-top: 0; }
+    #featured-project h3 { margin-top: 0; }
 
     /* Class selector: the aside announcement box (also reused for the media note) */
     .notice {
@@ -173,13 +173,13 @@
   <!-- Site header -->
   <header>
     <h1>Salman Ali</h1>
-    <p>3D modelling, mechanical design and AR/VR &middot; BS Computer Science student</p>
+    <p>BS Computer Science student &middot; Lahore Garrison University</p>
   </header>
 
   <!-- Main navigation: links to all three pages -->
   <nav aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="information.html" aria-current="page">Projects &amp; Services</a>
+    <a href="information.html" aria-current="page">Projects</a>
     <a href="registration.html">Project Inquiry</a>
   </nav>
 
@@ -190,63 +190,56 @@
       <h2>Featured Project</h2>
 
       <!-- Self-contained article describing one project -->
-      <article id="brake-project">
-        <h3>Braking System for a Heavy-Duty Automobile</h3>
-        <p>This project was the design of a braking system for a heavy-duty automobile. Heavy vehicles carry large loads and need to stop reliably, so brake components have to be sized and arranged with care, and every part has to fit together in the assembly.</p>
-        <p>My role was designer. The work involved modelling the brake components in 3D, checking how the parts fit together, and producing mechanical drawings so the design could be understood and reviewed by others.</p>
-        <p>The project brought together the skills I list on the home page: CAD modelling, technical drafting and a methodical approach to design problems. See the <a href="index.html">home page</a> for the full list of certificates.</p>
+      <article id="featured-project">
+        <h3>Flickr30k Caption Preprocessing</h3>
+        <p>This assignment for Mathematical Methods in AI works with Flickr30k, a collection of images paired with written captions. Raw captions are messy, so before any analysis they are cleaned and prepared step by step.</p>
+        <p>The project builds a 12-stage preprocessing pipeline for the captions and then uses TextBlob to measure the sentiment of the text. It shows how much of AI work is preparing data well before any model sees it.</p>
       </article>
 
-      <!-- Aside: related announcement -->
+      <!-- Aside: related note -->
       <aside class="notice">
-        <h3>Now taking project inquiries</h3>
-        <p>I am open to small design projects alongside my studies. Tip: send a rough sketch or a list of dimensions with your inquiry on the <a href="registration.html">inquiry form</a> and I can give you a faster estimate.</p>
+        <h3>Good to know</h3>
+        <p>All projects here are coursework from my BSCS studies. If you would like to talk about one of them, use the <a href="registration.html">inquiry form</a>.</p>
       </aside>
     </section>
 
-    <!-- Section 2: services table -->
+    <!-- Section 2: coursework table -->
     <section>
-      <h2>Services</h2>
+      <h2>Coursework Projects</h2>
       <table>
-        <caption>Sample services, typical tools and delivery times</caption>
+        <caption>BSCS coursework projects and what each one covers</caption>
         <thead>
           <tr>
-            <th scope="col">Service</th>
-            <th scope="col">Typical tools</th>
-            <th scope="col">Deliverable</th>
-            <th scope="col">Turnaround</th>
+            <th scope="col">Project</th>
+            <th scope="col">Area</th>
+            <th scope="col">Focus</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">3D part modelling</th>
-            <td>Fusion 360</td>
-            <td>Editable 3D model</td>
-            <td>3&ndash;5 days</td>
+            <th scope="row">Flickr30k caption preprocessing</th>
+            <td>Natural language processing</td>
+            <td>12-stage text pipeline with sentiment scoring</td>
           </tr>
           <tr>
-            <th scope="row">Mechanical drafting</th>
-            <td>AutoCAD</td>
-            <td>Dimensioned 2D drawings</td>
-            <td>2&ndash;4 days</td>
+            <th scope="row">PEAS and intelligent agents</th>
+            <td>Artificial intelligence</td>
+            <td>Describing agents and building them in Python</td>
           </tr>
           <tr>
-            <th scope="row">CNC toolpath preparation</th>
-            <td>PowerSHAPE, PowerMill</td>
-            <td>Toolpath files</td>
-            <td>4&ndash;6 days</td>
+            <th scope="row">Student Portal evaluation</th>
+            <td>UI/UX design</td>
+            <td>Heuristic evaluation of the login and dashboard screens</td>
           </tr>
           <tr>
-            <th scope="row">AR/VR 3D assets</th>
-            <td>3D modelling software</td>
-            <td>Optimised model for AR/VR</td>
-            <td>5&ndash;7 days</td>
+            <th scope="row">Student Assistant chatbot</th>
+            <td>Software design</td>
+            <td>Application storyline, users and a desktop chatbot concept</td>
           </tr>
           <tr>
-            <th scope="row">Brake component design</th>
-            <td>CAD/CAM tools</td>
-            <td>Model and drawing set</td>
-            <td>On request</td>
+            <th scope="row">Hard and soft links lab</th>
+            <td>Operating systems</td>
+            <td>Linux terminal commands such as ln and ls -li</td>
           </tr>
         </tbody>
       </table>
@@ -264,17 +257,14 @@
         <a href="media/welcome-chime.mp3">download the welcome chime</a> instead.
       </audio>
 
-      <h3>Brake disc animation</h3>
+      <h3>Short introduction</h3>
       <!-- Video with playback controls and fallback text -->
-      <figure>
-        <video controls preload="metadata" width="640" height="360">
-          <source src="media/brake-disc-preview.webm" type="video/webm">
-          <source src="media/brake-disc-preview.mp4" type="video/mp4">
-          Your browser does not support the video element. You can
-          <a href="media/brake-disc-preview.mp4">download the brake disc animation</a> instead.
-        </video>
-        <figcaption>A short animation of a rotating brake disc with a fixed caliper.</figcaption>
-      </figure>
+      <video controls preload="metadata" width="640" height="360">
+        <source src="media/intro.webm" type="video/webm">
+        <source src="media/intro.mp4" type="video/mp4">
+        Your browser does not support the video element. You can
+        <a href="media/intro.mp4">download the introduction video</a> instead.
+      </video>
     </section>
 
   </main>

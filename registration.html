@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Send a project inquiry to Salman Ali for 3D modelling, drafting, CAM or AR/VR work.">
+  <meta name="description" content="Send a project inquiry to Salman Ali.">
   <title>Project Inquiry | Salman Ali</title>
 
   <!-- Page 3 uses EXTERNAL CSS only: styles come from style.css -->
@@ -14,13 +14,13 @@
   <!-- Site header -->
   <header>
     <h1>Salman Ali</h1>
-    <p>3D modelling, mechanical design and AR/VR &middot; BS Computer Science student</p>
+    <p>BS Computer Science student &middot; Lahore Garrison University</p>
   </header>
 
   <!-- Main navigation: links to all three pages -->
   <nav aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="information.html">Projects &amp; Services</a>
+    <a href="information.html">Projects</a>
     <a href="registration.html" aria-current="page">Project Inquiry</a>
   </nav>
 
@@ -76,16 +76,16 @@
             <label for="project-type">Project type</label>
             <select id="project-type" name="project_type" required>
               <option value="" selected disabled>Select a project type</option>
-              <option value="3d-modelling">3D part modelling</option>
-              <option value="drafting">Mechanical drafting</option>
-              <option value="cam">CNC toolpath preparation</option>
-              <option value="ar-vr">AR/VR 3D assets</option>
+              <option value="web">Website with HTML and CSS</option>
+              <option value="python">Python programming</option>
+              <option value="uiux">UI/UX review</option>
+              <option value="other">Something else</option>
             </select>
           </p>
 
           <p>
             <label for="comments">Additional information</label>
-            <textarea id="comments" name="comments" rows="5" maxlength="500" placeholder="Describe your project, sizes, materials or deadlines."></textarea>
+            <textarea id="comments" name="comments" rows="5" maxlength="500" placeholder="Describe your project and any deadlines."></textarea>
             <span class="hint">Up to 500 characters.</span>
           </p>
         </fieldset>
@@ -94,16 +94,16 @@
         <fieldset>
           <legend>Extras (optional)</legend>
           <p>
-            <input type="checkbox" id="extra-drawings" name="extra_drawings" value="yes">
-            <label for="extra-drawings" class="inline-label">Technical drawings</label>
+            <input type="checkbox" id="extra-code" name="extra_code" value="yes">
+            <label for="extra-code" class="inline-label">Source code included</label>
           </p>
           <p>
-            <input type="checkbox" id="extra-revisions" name="extra_revisions" value="yes">
-            <label for="extra-revisions" class="inline-label">Two rounds of revisions</label>
+            <input type="checkbox" id="extra-docs" name="extra_docs" value="yes">
+            <label for="extra-docs" class="inline-label">Short written documentation</label>
           </p>
           <p>
-            <input type="checkbox" id="extra-files" name="extra_files" value="yes">
-            <label for="extra-files" class="inline-label">Source files included</label>
+            <input type="checkbox" id="extra-updates" name="extra_updates" value="yes">
+            <label for="extra-updates" class="inline-label">Regular progress updates</label>
           </p>
         </fieldset>
 

@@ -14,11 +14,11 @@
 
 | File | Purpose | CSS method |
 | --- | --- | --- |
-| `index.html` | Home: introduction, experience, skills | Inline CSS (style attributes) |
-| `information.html` | Projects and services: article, aside, table, audio, video | Embedded CSS (style element) |
+| `index.html` | Home: photo, introduction, skills, interests | Inline CSS (style attributes) |
+| `information.html` | Projects: featured article, aside, coursework table, audio, video | Embedded CSS (style element) |
 | `registration.html` | Project inquiry form | External CSS (`style.css`) |
 
-Media files: `images/brake-disc.svg`, `media/welcome-chime.mp3`, `media/brake-disc-preview.mp4`.
+Media files: `images/salman-ali.jpg`, `media/welcome-chime.mp3`, `media/intro.mp4` and `media/intro.webm`.
 
 ## Validation
 
